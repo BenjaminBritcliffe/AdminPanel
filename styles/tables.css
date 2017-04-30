@@ -1,0 +1,31 @@
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+th{
+		height: 50px;
+		text-align: center;
+		vertical-align: bottom;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+tr{
+background-color:#6eb5aa; /*main colour for column*/
+color:#21000f;
+font-weight:600;
+}
+
+tr:nth-child(even) {background-color:#479c9d; color:#3a001a;} /*Zebra Effect*/
+
+tr:hover {background-color:#7f8c8d; font-weight:700;} /*Hover page*/
+
+th {
+    background-color:#00a5a9; /*Heading Colour*/
+    color:#ecf0f1;
+}
